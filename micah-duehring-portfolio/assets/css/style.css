@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    display: flex;
+    padding: 20px 50px;
+    background-color: #282828;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.intro {
+    background-image: url("../images/dark-2312843_960_720.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.intro p {
+    background: none;
+    line-height: 1.7;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* GENERAL DETAILS */
+.section-title {
+    font-size: 80px;
+    color: white;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.projects {
+    background-color: #404040;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.projects p {
+    background: none;
+    line-height: 1.7;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
