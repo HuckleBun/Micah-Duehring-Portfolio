@@ -8,4 +8,4 @@ My portfolio that allows others to view who I am, view the work I have created, 
 * CSS
 
 ## Website
-https://HuckleBun.github.io/micah-duehring-portfolio/
+https://hucklebun.github.io/Micah-Duehring-Portfolio/
