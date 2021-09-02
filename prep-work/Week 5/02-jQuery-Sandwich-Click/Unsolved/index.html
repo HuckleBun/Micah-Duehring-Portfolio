@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>jQuery Sandwich Click</title>
+  </head>
+
+  <body>
+    <h1>Click to Eat Sandwich</h1>
+    <!-- Create three button elements each with an id and corresponding content for our sandwiches -->
+    <button id="PBJ">PBJ</button>
+    <button id="TCM">Turkey, Cheese, and Mayo</button>
+    <button id="HC">Ham and Cheese</button>
+    <!-- BONUS: Render an image for each click event. You will need to declare an empty `<div>` with an id of `#image-div` for this -->
+
+    <!-- Link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      // Create three global variables for tracking the number of sandwiches eaten
+      var PBJ_eaten = 0
+      var HC_eaten = 0
+      var TCM_eaten = 0
+      // Here we create various "on click" events which capture clicks
+      // Inside each click event is the code to create an alert, update the counter, and show the updated count.
+      // Take note that you can chain events onto an element
+      // With this even if our ids are created at a later date our events will still always work
+      $('#PBJ').on("click", function() {
+        alert("You have eaten a PBJ sandwich")
+        PBJ_eaten++
+        alert("You have eaten " + PBJ_eaten + " PBJ sandwich(es)")
+      })
+
+      $('#TCM').on("click", function() {
+        alert("You have eaten a turkey, cheese, and mayo sandwich")
+        TCM_eaten++
+        alert("You have eaten " + TCM_eaten + " Turkey, Cheese, and Mayo sandwich(es)")
+      })
+
+      $('#HC').on("click", function() {
+        alert("You have eaten a ham and cheese sandwich")
+        HC_eaten++
+        alert("You have eaten " + HC_eaten + " Ham and Cheese sandwich(es)")
+      })
+
+    </script>
+  </body>
+</html>
