@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.navbar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(86, 86, 255);
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.dropdown-menu {
+    background-color: #3a3939;
+}
+
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
